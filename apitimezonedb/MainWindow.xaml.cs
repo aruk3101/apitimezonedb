@@ -20,7 +20,7 @@ namespace apitimezonedb
         {
             InitializeComponent();
 
-            //Username : draczek API Key  : 692I4TQFJCPD
+            
         }
     }
 }
