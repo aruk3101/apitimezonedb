@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:apitimezonedb"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="300" Width="500">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBox x:Name="MiastoTextBox" Width="200" Height="25"/>
+            <Button x:Name="PobierzCzasButton" Content="Pobierz Czas" Width="120" Height="25" Click="PobierzCzasButton_Click"/>
+        </StackPanel>
 
-    </Grid>
+        <ScrollViewer>
+            <ListBox x:Name="CzasListBox" Width="480" MinHeight="200"/>
+        </ScrollViewer>
+    </StackPanel>
+
 </Window>
