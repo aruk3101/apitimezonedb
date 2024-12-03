@@ -8,12 +8,12 @@
         Title="MainWindow" Height="300" Width="500">
     <StackPanel>
         <StackPanel Orientation="Horizontal">
-            <TextBox x:Name="MiastoTextBox" Width="200" Height="25"/>
-            <Button x:Name="PobierzCzasButton" Content="Pobierz Czas" Width="120" Height="25" Click="PobierzCzasButton_Click"/>
+            <TextBox x:Name="CityTextBox" Width="200" Height="25"/>
+            <Button x:Name="FetchTimeButton" Content="Pobierz Czas" Width="120" Height="25" Click="FetchTimeButton_Click"/>
         </StackPanel>
 
         <ScrollViewer>
-            <ListBox x:Name="CzasListBox" Width="480" MinHeight="200"/>
+            <ListBox x:Name="TimeLstBox" Width="480" MinHeight="200"/>
         </ScrollViewer>
     </StackPanel>
 
